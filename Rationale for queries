@@ -1,7 +1,43 @@
 1. The total value of merchandise per year and merchandise type
-This query sums the stock of merchandise from online and physical sales, grouping it by year and the merchandise type and ranking it by the sum value highlighting the top 20. 
-The business rationale for this query is to identify how much stock the business has yearly and evaluate its value with the cost of keeping them and even the possibilities of stock waste. With this, the business can enforce stock control by identifying merchandise types that do not sell out and probably stop acquiring them or identifying providers which are less patronized and discontinue contracts with them. Comparison between the costs of storing merchandise in the warehouse and the revenue they give can be done as well as review of price strategies to increase sales thus leading to profitability.
+This query sums the stock of merchandise from online and physical sales, grouping it by year and the merchandise type and ranking it 
+by the sum value highlighting the top 20. 
+The business rationale for this query is to identify how much stock the business has yearly and evaluate its value with the cost of keeping 
+them and even the possibilities of stock waste. 
+With this, the business can enforce stock control by identifying merchandise types that do not sell out and probably stop acquiring them 
+or identifying providers which are less patronized and discontinue contracts with them. Comparison between the costs of storing merchandise 
+in the warehouse and the revenue they give can be done as well as review of price strategies to increase sales thus leading to profitability.
+
+
 2. Evaluation of profits generated through promotions
+Promotions are generally considered to boost sales and profit in a business. This query looks at the various 
+promotion types used by the business and the profit that has been made through them. The business rationale here 
+is to establish if cost incurred on different promotion types yields enough gross profit and then decisions are made to 
+either spend more on promotions through advertisement, seeking sponsorship and direct marketing of tickets and merchandise or spend less.
+This query groups the promotion profit by year and promotion type, it applies the CASE statement to state conditions for 
+naming the summation of costs, revenue and profit and the CAST statement to convert the date type of DateYear to VARCHAR.
+
+
 3. Revenue drain accrued due to refunds
+Revenue drain or shortfall is a common problem identified by businesses and it is simply a steady outflow of revenue or 
+profits due to certain inefficiencies or situations. In this case, revenue loss comes through refunds of merchandise, online 
+merchandise and tickets. The query sums tickets and merchandise refunds, groups them by year and applies the ROLLUP statement to sum them yearly.
+The business rationale behind this query is to evaluate the value of refunds made yearly and how refunds can be minimized 
+through establishing clear refund policies that will stipulate grounds for refunds and how refund requests are handled. 
+This will reduce future revenue drain and optimize profitability.
+
+
 4. Trend of spectator turnout considering the Covid-19 outbreak
+The business rationale for this query is to identify patterns and trend of number of spectators for events over the years especially 
+comparing the pre-covid period to the post-covid period to seek significant changes. 
+With this insight, business could decide to offer rewards for spectators for attending events or even create a chat room 
+where spectators can interact with each other and give their suggestions which will be noted by the business and 
+channeled to providing excellent spectator experience in subsequent events leading to more profits in the future.
+
+
 5. Distinct players who have won championships
+This query seeks to find players who won the championship at different years where the award position is 1 and ordered by the year.
+The business rationale behind this query is to set up interviews with several media platform or broadcasting agencies for these 
+players to relate what the Tior game is like thus sensitizing people and encouraging them to attend the game. 
+The champions leverage this to increase their popularity and for other players, they gain inspiration to win the championship. 
+The business on the other hand, gains more revenue from more people who attend the games after learning about it, that is, 
+leveraging on it for profitability.
