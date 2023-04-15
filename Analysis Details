@@ -1,0 +1,13 @@
+The Tior Gaming data warehouse used for this project was gotten from Amazon AWS, Hive.
+The Tior Games has a number of games but its most popular and profitable game is the League of Fun (LoF).
+LoF is a free-to-play game and its World Championships hold twice yearly - in January and in September for theri professional and competitive teams.
+This data warehouse used in tyhis project contains data from previous World Championships starting from 2016.
+The data warehouse includes games data, champion data, player data, in-game purchases data and event data.
+The analysis in focused on investigating what Tior Games can do to enhance the popularity of the World Championship, improve player and spectator experience and improve profits.
+
+The queries in this analysis will give insights to the following:
+1. The total value of merchandise per year and merchandise type
+2. Evaluation of profits generated through promotions
+3. Revenue drain accrued due to refunds
+4. Trend of spectator turnout considering the Covid-19 outbreak
+5. Distinct players who have won championships
