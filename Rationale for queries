@@ -1,1 +1,7 @@
-
+1. The total value of merchandise per year and merchandise type
+This query sums the stock of merchandise from online and physical sales, grouping it by year and the merchandise type and ranking it by the sum value highlighting the top 20. 
+The business rationale for this query is to identify how much stock the business has yearly and evaluate its value with the cost of keeping them and even the possibilities of stock waste. With this, the business can enforce stock control by identifying merchandise types that do not sell out and probably stop acquiring them or identifying providers which are less patronized and discontinue contracts with them. Comparison between the costs of storing merchandise in the warehouse and the revenue they give can be done as well as review of price strategies to increase sales thus leading to profitability.
+2. Evaluation of profits generated through promotions
+3. Revenue drain accrued due to refunds
+4. Trend of spectator turnout considering the Covid-19 outbreak
+5. Distinct players who have won championships
